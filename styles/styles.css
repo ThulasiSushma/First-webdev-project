@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), no-repeat center/100% url(../images/imgs/organic-skin-care.jpg);
+  background-size: cover;
+}
+header .nav-1 {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Dancing Script", cursive;
+  width: 80%;
+  margin: 0 auto;
+}
+header .nav-1 .list-1 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+header .nav-1 .list-1 li {
+  margin: 1rem;
+  font-size: 2rem;
+  color: rgb(250, 250, 250);
+}
+header .nav-1 .div-img {
+  padding: 1rem;
+  text-align: center;
+}
+header .nav-1 .div-img img {
+  width: 10rem;
+}
+header .nav-1 .div-img h1 {
+  font-size: 2rem;
+  color: rgb(250, 250, 250);
+  padding-top: 1rem;
+}
+header .nav-1 .list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 2rem;
+  color: rgb(250, 250, 250);
+}
+header .nav-1 .list-2 li {
+  margin: 1rem;
+}
+header .div-nav .nav-2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+header .div-nav .nav-2 .fa-bars {
+  display: none;
+}
+header .div-nav .nav-2 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 1rem;
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  header .nav-1 ul li {
+    display: none;
+  }
+  header .div-nav .nav-2 ul {
+    justify-content: flex-end;
+    width: 100%;
+  }
+  header .div-nav .nav-2 ul li .fa-user, header .div-nav .nav-2 ul li .fa-magnifying-glass, header .div-nav .nav-2 ul li .fa-cart-shopping {
+    display: none;
+  }
+  header .div-nav .nav-2 ul li .fa-bars {
+    display: block;
+  }
+}
+main .skin, main .hair {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Dancing Script", cursive;
+  padding: 5rem;
+}
+
+main .skin li, main .hair li {
+  list-style-type: none;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+main .skin li a, main .hair li a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: rgb(255, 255, 255);
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+main {
+  margin: 1rem auto;
+}
+main .hair {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/imgs/tijana-drndarski-dFoOWRT97_0-unsplash.jpg);
+}
+main .hair li a:hover {
+  box-shadow: inset 240px 0 0 0 #08769e;
+  color: white;
+}
+main .skin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/imgs/chinh-le-duc-vuDXJ60mJOA-unsplash.jpg);
+}
+main .skin li a:hover {
+  box-shadow: inset 240px 0 0 0 #08769e;
+  color: white;
+}
+
+footer {
+  background-color: rgba(157, 149, 149, 0.497);
+}
+footer h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+footer .social ul {
+  display: flex;
+  justify-content: center;
+}
+footer .social li {
+  list-style-type: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+footer .tag {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: rgb(160, 9, 163);
+}
+footer .footer-2 {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-2 .contact {
+  padding-left: 5rem;
+}
+footer .footer-2 .contact li {
+  list-style-type: none;
+  padding: 0.5rem 0;
+}
+footer .footer-2 .contact li a {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+footer .footer-2 .mail {
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+footer .footer-2 .mail p {
+  color: rgb(96, 96, 96);
+  padding: 0.5rem 0;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,63 @@
+footer {
+    background-color: rgba(157, 149, 149, 0.497);
+
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.social {
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
+
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(160, 9, 163);
+}
+
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+
+    .contact  {
+        padding-left: 5rem;
+
+    li{
+        list-style-type: none;
+        padding: 0.5rem 0;
+    }
+
+    li a {
+        text-decoration: none;
+        color: rgb(96, 96, 96);
+    }
+    }
+    
+
+    .mail {
+        padding-right: 2rem;
+        margin-bottom: 1rem;
+        p {
+        color: rgb(96, 96, 96);
+        padding: 0.5rem 0;
+        }
+    }
+}
+}

@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Dancing Script", cursive;
+}
+
+main .div-1 button {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(162, 134, 173);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/imgs/tijana-drndarski-dFoOWRT97_0-unsplash.jpg);
+}
+
+header h2 {
+  text-align: center;
+  font-size: 10rem;
+  color: white;
+  padding-top: 5rem;
+}
+
+main .haircare {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 60%;
+  gap: 2rem;
+}
+main .div-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(181, 179, 179, 0.397);
+  width: 50%;
+  height: 40rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #000000;
+}
+main .div-1 .content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+main .div-1 img {
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.2s;
+  border-radius: 10px;
+}
+main .div-1 img:hover {
+  transform: scale(1.2);
+}
+main .div-1 h3 {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+main .div-1 p {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+main .div-1 button:hover {
+  transform: scale(1.2);
+}
+main .div-1 .fa-heart {
+  float: right;
+  font-size: 2rem;
+  padding: 1rem;
+}
+main .back {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+main .back a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+footer {
+  background-color: rgba(157, 149, 149, 0.497);
+}
+footer h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+footer .social ul {
+  display: flex;
+  justify-content: center;
+}
+footer .social li {
+  list-style-type: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+footer .tag {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: rgb(196, 200, 216);
+}
+footer .footer-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+footer .footer-2 .contact {
+  padding-left: 5rem;
+}
+footer .footer-2 .contact li {
+  list-style-type: none;
+  padding: 0.5rem 0;
+}
+footer .footer-2 .contact li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+footer .footer-2 .mail {
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+footer .footer-2 .mail p {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  main .haircare {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    gap: 1rem;
+  }
+  main .haircare .div-1 {
+    width: 100%;
+  }
+  footer {
+    padding-bottom: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
